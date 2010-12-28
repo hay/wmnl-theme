@@ -15,7 +15,6 @@ class WMNL {
 
         $this->registerSidebars();
 
-        add_action("wp", array($this, "blockVisitors"));
         add_action("wp_head", array($this, "addPageProperties"));
 
         add_theme_support('post-thumbnails');
@@ -52,12 +51,6 @@ class WMNL {
             'before_title' => '<h3>',
             'after_title' => '</h3>',
         ));
-    }
-
-    public function blockVisitors() {
-        if (!is_user_logged_in()) {
-            die("<h1>500 INTERNAL SERVER ERROR</h1>");
-        }
     }
 
     public function slider() {
