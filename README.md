@@ -15,12 +15,13 @@ Installation
 ------------
 This theme *requires* the [haybase] plugin installed and activated.
 
-1. Download the [latest] version of Haybase and extract it somewhere.
+1. Download the [latest][haybase-latest] version of haybase and extract it somewhere.
 2. Move the `src` folder to your wp-content/plugins folder and rename it to `haybase`
 3. [Download] this theme
 4. Extract it, and move the folder to your wp-content/themes folder and rename it to `wmnl-theme`
 5. Log in to the administration panel and activate the haybase plugin
 6. Activate this theme
 
-[latest]: http://github.com/hay/haybase/zipball/master
+[haybase]: http://github.com/hay/haybase
+[haybase-latest]: http://github.com/hay/haybase/zipball/master
 [Download]: http://github.com/hay/wmnl-theme/zipball/master
