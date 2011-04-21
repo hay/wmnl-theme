@@ -9,10 +9,6 @@
     			</div>
             </form>
         </div>
-
-        <a href="http://www.wmnederland.nl" title="Wikimedia Nederland">
-            <img class="logo" src="<?php $T->theme(); ?>/img/logotrans.png" alt="Wikimedia Nederland" />
-        </a>
     </div> <!-- #footer -->
 </div> <!-- #wrapper -->
 <?php wp_footer(); ?>
