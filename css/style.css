@@ -2,41 +2,49 @@
 html, body {
 	letter-spacing: 0.05em;
     color: #333;
-	background: url('img/bg.jpg') repeat-x #069;
+	background-repeat: repeat-x;
+	background-color: #069;
 }
 
 body {
     font-family : Arial, Helvetica, Sans, FreeSans, 'Nimbus Sans L', Garuda, sans-serif; /* many fonts to accomodate Linux users without Arial */
-	font-size: 62.5%; /* Resets 1em to 10px */
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #069;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 1px;
     margin-bottom: 5px;
 }
 
 h1 {
-    font-size: 3.0em;
+    font-size: 30px;
 }
 
 h2 {
-    font-size: 2.4em;
+    font-size: 24px;
     border-bottom: 1px dotted #6bb4e0;
     margin-bottom: 10px;
 }
 
 h3 {
-    font-size: 2.0em;
+    font-size: 22px;
+    margin: 10px 0 15px 0;
 }
+
+h4, h5, h6 {
+    text-transform: none;
+}    
 
 h4 {
-    font-size: 1.8em;
+    font-size: 20px;
 }
 
-h5, h6 {
-    font-size: 1.6em;
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
 }
 
 strong {
@@ -57,8 +65,25 @@ em {
 }
 
 p {
-    font-size: 1.8em;
+    font-size: 16px;
     margin-bottom: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 3px double #069;
+    padding-left: 15px;
+}    
+
+/* Generic classes */
+.alignleft {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 10px 10px;
 }
 
 /* Layout */
@@ -109,7 +134,7 @@ p {
         color: white;
         text-decoration: none;
         text-shadow: 1px 1px 1px #6a6a6a;
-        font-size: 1.8em;
+        font-size: 18px;
         line-height: 33px;
     }
 
@@ -117,17 +142,6 @@ p {
     padding: 10px;
     position: relative;
 }
-
-    #content h3 {
-        text-transform: none;
-    }
-
-    #content h4 {
-        color: #999;
-        font-size: 1.6em;
-        font-style: italic;
-        text-transform: none;
-    }
 
 #main {
     float: left;
@@ -141,12 +155,30 @@ p {
         border-right: 10px solid white;
         margin-top : 4px;
     }
-
-    #main .article h3 {
-        color: #333;
-        font-size: 1.2em;
+    
+    #main .article {
         margin-bottom: 20px;
-        letter-spacing: 0.2em;
+    }
+
+    #main .article h3.meta {
+        color: #333;
+        font-size: 12px;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+    }
+    
+    #main .article .meta {
+        display: none;
+    }
+    
+    #main li {
+        font-size: 16px;
+        list-style-type: disc;
+        margin: 5px 0;
+    }
+    
+    #main ul, #main ol {
+        margin: 5px 0 5px 30px;
     }
 
 #aside {
@@ -160,12 +192,12 @@ p {
     }
 
     #aside h3 {
-        font-size: 1.3em;
+        font-size: 13px;
         margin-bottom: 5px;
     }
 
     #aside h3 a {
-        font-size: 1.0em;
+        font-size: 10px;
     }
 
     #aside .top {
@@ -181,13 +213,21 @@ p {
     #aside .box {
         margin-bottom: 10px;
     }
+    
+    #aside #searchform {
+        overflow: hidden;
+    }
 
     #aside #searchform label {
         display: none;
     }
+    
+    #aside #searchsubmit {
+        font-size: 10px;
+    }
 
     #aside a {
-        font-size: 1.3em;
+        font-size: 13px;
     }
 
     #aside ul {
@@ -206,11 +246,11 @@ p {
 }
 
 #aside .widget_twitter .entry-content {
-    font-size: 1.2em;
+    font-size: 12px;
 }
 
 #aside .widget_twitter .entry-content a {
-    font-size: 1.0em !important;
+    font-size: 10px !important;
 }
 
 #aside .widget_twitter li {
@@ -298,3 +338,21 @@ p {
         display: block;
         margin: 0 auto;
     }
+    
+/* Twitter widget */
+.twtr-widget p {
+    font-size: 14px;
+}
+
+#lastuploads {
+    height: 160px;
+}
+
+    #lastuploads img {
+        padding-right: 14px;
+        max-height: 155px;
+    }
+    
+        #lastuploads a:last-child img {
+            padding: 0;
+        }

@@ -1,4 +1,3 @@
-
 <!-- WMNL Central navigation -->
 <?php
 if ($T->isLocal()) {
