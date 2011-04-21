@@ -33,13 +33,11 @@ class Wmnl {
         ),
         "custom-css" => array(
             "title" => "Custom CSS",
-            "type" => "textarea",
-            "description" => "Use this only as a last resort, you shouldn't really be using this"
+            "type" => "textarea"
         ),
         "custom-js" => array(
             "title" => "Custom Javascript",
-            "type" => "textarea",
-            "description" => "Use this only as a last resort, you shouldn't really be using this"
+            "type" => "textarea"
         )
     );
 
