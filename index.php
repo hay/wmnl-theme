@@ -4,7 +4,7 @@
     <div id="main">
     <?php
         if (is_front_page()) {
-            dynamic_sidebar('home');            
+            dynamic_sidebar('home');
         } else if ($post->post_name == "nieuws") {
             require 'blog.php';
         } else {
@@ -14,10 +14,10 @@
                     require 'article.php';
                 }
             } else {
-                require '404_msg.php';
+                echo '404 not found';
             }
         }
-    ?>    
+    ?>
     </div> <!--#main -->
     <?php get_sidebar(); ?>
 </div> <!-- #content -->

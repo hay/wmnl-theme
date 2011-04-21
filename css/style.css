@@ -33,7 +33,7 @@ h3 {
 
 h4, h5, h6 {
     text-transform: none;
-}    
+}
 
 h4 {
     font-size: 20px;
@@ -73,7 +73,7 @@ blockquote {
     font-style: italic;
     border-left: 3px double #069;
     padding-left: 15px;
-}    
+}
 
 /* Generic classes */
 .alignleft {
@@ -155,7 +155,7 @@ blockquote {
         border-right: 10px solid white;
         margin-top : 4px;
     }
-    
+
     #main .article {
         margin-bottom: 20px;
     }
@@ -166,17 +166,17 @@ blockquote {
         margin-bottom: 20px;
         letter-spacing: 2px;
     }
-    
+
     #main .article .meta {
         display: none;
     }
-    
+
     #main li {
         font-size: 16px;
         list-style-type: disc;
         margin: 5px 0;
     }
-    
+
     #main ul, #main ol {
         margin: 5px 0 5px 30px;
     }
@@ -213,7 +213,7 @@ blockquote {
     #aside .box {
         margin-bottom: 10px;
     }
-    
+
     #aside #searchform {
         overflow: hidden;
     }
@@ -221,7 +221,7 @@ blockquote {
     #aside #searchform label {
         display: none;
     }
-    
+
     #aside #searchsubmit {
         font-size: 10px;
     }
@@ -277,42 +277,6 @@ blockquote {
     font-size: 1.2em;
 }
 
-#slmenuwidget {
-}
-
-    #slmenuwidget h3 {
-        display: none;
-    }
-
-    #slmenuwidget ul {
-        margin: 0;
-    }
-
-    #slmenuwidget li {
-        list-style-type: none;
-        padding: 7px 0;
-        margin: 0;
-        width: 200px;
-        border-top: 1px solid #ccc;
-    }
-
-    #slmenuwidget li ul {
-        margin-left: 6px;
-    }
-
-    #slmenuwidget li ul li {
-        border: 0;
-    }
-
-    #slmenuwidget li ul li:last-child {
-        padding-bottom: 0;
-    }
-
-    #slmenuwidget a {
-        font-size: 1.4em;
-
-    }
-
 #footer {
     clear: both;
     background: url('../img/bgfooter.png') repeat-x #004a6f;
@@ -338,21 +302,3 @@ blockquote {
         display: block;
         margin: 0 auto;
     }
-    
-/* Twitter widget */
-.twtr-widget p {
-    font-size: 14px;
-}
-
-#lastuploads {
-    height: 160px;
-}
-
-    #lastuploads img {
-        padding-right: 14px;
-        max-height: 155px;
-    }
-    
-        #lastuploads a:last-child img {
-            padding: 0;
-        }

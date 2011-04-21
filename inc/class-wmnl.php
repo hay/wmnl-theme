@@ -4,11 +4,11 @@ class Wmnl {
     private $themeOptions = array(
         "google-analytics-id" => array(
             "title" => "Google Analytics ID",
-            "default" => "UA-8050986-14"
+            "default" => "UA-XXXXXXX-XX"
         ),
         "default-banner" => array(
             "title" => "URL to default banner (can be local)",
-            "default" => "img/default-banner.jpg"
+            "default" => "img/default-header.png"
         ),
         "logo-url" => array(
             "title" => "URL to logo (can be local)",
@@ -33,13 +33,11 @@ class Wmnl {
         ),
         "custom-css" => array(
             "title" => "Custom CSS",
-            "type" => "textarea",
-            "description" => "Use this only as a last resort, you shouldn't really be using this"
+            "type" => "textarea"
         ),
         "custom-js" => array(
             "title" => "Custom Javascript",
-            "type" => "textarea",
-            "description" => "Use this only as a last resort, you shouldn't really be using this"
+            "type" => "textarea"
         )
     );
 
@@ -97,16 +95,6 @@ class Wmnl {
             "title" => "Edit WMNL Theme",
             "options" => $this->themeOptions
         ));
-    }
-
-
-    public function slider() {
-        $slider = new NiceSlide(array(
-            "category" => "featured",
-            "width" => self::SLIDER_WIDTH,
-            "height" => self::SLIDER_HEIGHT
-        ));
-        $slider->show();
     }
 
     public function logo() {
