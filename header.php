@@ -14,7 +14,7 @@
 
     <?php // Load possible extra fonts
         if ($T->getThemeOption("font") != "arial") {
-            $T->loadStylesheets("/css/" . $T->getThemeOption("font") . ".css");
+            $T->loadStylesheets("/css/fonts/" . $T->getThemeOption("font") . "/style.css");
         }
     ?>
 

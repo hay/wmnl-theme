@@ -1,0 +1,13 @@
+/* Bitstream Vera Serif */
+@font-face {
+    font-family: 'vera-serif';
+    src: url('fonts/vera-serif.eot');
+    src: local('☺'), url('fonts/vera-serif.woff') format('woff'), url('fonts/vera-serif.ttf') format('truetype'), url('fonts/vera-serif.svg#webfontTpGbkB1A') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6,
+#nav li a, .nav li a {
+    font-family: 'vera_serif';
+}
