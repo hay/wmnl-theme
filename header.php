@@ -1,4 +1,5 @@
 <?php global $T, $WMNL; ?>
+<!doctype html>
 <!--[if lt IE 7 ]> <html class="ie6 ielt7 ielt8 ielt9"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie7 ielt8 ielt9"> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie8 ielt9"> <![endif]-->
