@@ -181,6 +181,18 @@ blockquote {
         margin: 5px 0 5px 30px;
     }
 
+    /* For captions under images */
+    .wp-caption {
+        border: 1px solid #D7D7CD;
+        padding: 8px 0 0 8px;
+    }
+
+    .wp-caption-text {
+        font-size: 12px;
+        font-style: italic;
+        text-align: center;
+    }
+
 #aside {
     float: right;
     width: 220px;
