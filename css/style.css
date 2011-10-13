@@ -254,6 +254,51 @@ blockquote {
     font-size: 1.2em;
 }
 
+#comments {
+
+}
+
+    #comments label, #comments input, #comments textarea, #comments button {
+        float: left;
+        clear: left;
+    }
+
+    #comments label, #comments button {
+        margin-top: 20px;
+    }
+
+        #comments label:first-of-type {
+            margin-top: 0;
+        }
+
+    #comments input, #comments textarea {
+        width: 500px;
+    }
+
+    #comments textarea {
+        height: 200px;
+    }
+
+#commentlist {
+    margin-bottom: 20px;
+}
+
+    #commentlist ul {
+        margin-left: 0;
+    }
+
+    #commentlist li {
+        list-style-type: none;
+    }
+
+        #commentlist .comment-body {
+            margin-bottom: 20px;
+        }
+
+        #commentlist li li {
+            margin-left: 40px;
+        }
+
 #footer {
     clear: both;
     background: url('../img/bgfooter.png') repeat-x #004a6f;
