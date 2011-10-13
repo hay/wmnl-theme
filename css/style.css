@@ -167,10 +167,6 @@ blockquote {
         letter-spacing: 2px;
     }
 
-    #main .article .meta {
-        display: none;
-    }
-
     #main li {
         font-size: 16px;
         list-style-type: disc;
@@ -251,43 +247,57 @@ blockquote {
         margin: 3px 0;
     }
 
-/* Widgets */
-#aside .niceslide .pagination li {
-    margin: 0 3px;
-    list-style-type: none;
-}
-
-#aside .widget_twitter .entry-content {
-    font-size: 12px;
-}
-
-#aside .widget_twitter .entry-content a {
-    font-size: 10px !important;
-}
-
-#aside .widget_twitter li {
-    margin: 10px 0;
-}
-
-#aside .widget_twitter .entry-meta {
-    display: none;
-}
-
-.widget_rrm_recent_posts li {
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.widget_rrm_recent_posts p {
-    margin: 10px 0;
-}
-
 #aside #s {
     height: 16px;
     width: 130px;
     margin-right: 5px;
     font-size: 1.2em;
 }
+
+#comments {
+
+}
+
+    #comments label, #comments input, #comments textarea, #comments button {
+        float: left;
+        clear: left;
+    }
+
+    #comments label, #comments button {
+        margin-top: 20px;
+    }
+
+        #comments label:first-of-type {
+            margin-top: 0;
+        }
+
+    #comments input, #comments textarea {
+        width: 500px;
+    }
+
+    #comments textarea {
+        height: 200px;
+    }
+
+#commentlist {
+    margin-bottom: 20px;
+}
+
+    #commentlist ul {
+        margin-left: 0;
+    }
+
+    #commentlist li {
+        list-style-type: none;
+    }
+
+        #commentlist .comment-body {
+            margin-bottom: 20px;
+        }
+
+        #commentlist li li {
+            margin-left: 40px;
+        }
 
 #footer {
     clear: both;

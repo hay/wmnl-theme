@@ -12,22 +12,11 @@
     </div> <!-- #footer -->
 </div> <!-- #wrapper -->
 
-<script>
-function __loadScript(b,a){function f(h,i){i=i||function(){};var g=document.createElement("script");g.type="text/javascript";if(g.readyState){g.onreadystatechange=function(){if(g.readyState==="loaded"||g.readyState==="complete"){g.onreadystatechange=null;i()}}}else{g.onload=function(){i()}}g.src=h;document.getElementsByTagName("head")[0].appendChild(g)}if(typeof b==="string"){f(b,a)}else{if(b instanceof Array){var e=0,c=b.length;function d(){if(e>=c){a();return false}f(b[e],d);e++}d()}}};
-
-var __scripts = [
-    "http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js",
-    "<?php $T->style(); ?>/js/javascript.js"
-];
-
-__loadScript(__scripts, function() {
-    <?php
-        if ($T->getThemeOption("custom-js")) {
-            $T->themeOption("custom-js");
-        }
-    ?>
-});
-</script>
+<?php if ($T->getThemeOption("custom-js")) : ?>
+    <script>
+        <?php $T->themeOption("custom-js"); ?>
+    </script>
+<?php endif; ?>
 
 <?php wp_footer(); ?>
 
