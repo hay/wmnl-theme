@@ -167,10 +167,6 @@ blockquote {
         letter-spacing: 2px;
     }
 
-    #main .article .meta {
-        display: none;
-    }
-
     #main li {
         font-size: 16px;
         list-style-type: disc;
@@ -250,37 +246,6 @@ blockquote {
         list-style-type: disc;
         margin: 3px 0;
     }
-
-/* Widgets */
-#aside .niceslide .pagination li {
-    margin: 0 3px;
-    list-style-type: none;
-}
-
-#aside .widget_twitter .entry-content {
-    font-size: 12px;
-}
-
-#aside .widget_twitter .entry-content a {
-    font-size: 10px !important;
-}
-
-#aside .widget_twitter li {
-    margin: 10px 0;
-}
-
-#aside .widget_twitter .entry-meta {
-    display: none;
-}
-
-.widget_rrm_recent_posts li {
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.widget_rrm_recent_posts p {
-    margin: 10px 0;
-}
 
 #aside #s {
     height: 16px;
