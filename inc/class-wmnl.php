@@ -3,8 +3,7 @@ class Wmnl {
     private $haybase;
     private $themeOptions = array(
         "google-analytics-id" => array(
-            "title" => "Google Analytics ID",
-            "default" => "UA-XXXXXXX-XX"
+            "title" => "Google Analytics ID"
         ),
         "default-banner" => array(
             "title" => "URL to default banner (can be local)",
